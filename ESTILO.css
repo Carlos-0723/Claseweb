@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    color: #2C3E50;
+    background-color: #ECF0F1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #FFFFFF;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #34495E;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+header .contact-info {
+    font-size: 0.9em;
+    color: #7F8C8D;
+    font-weight: 300;
+}
+
+header .contact-info span {
+    display: block;
+    margin: 5px 0;
+}
+.profile h2, .references h2, .interests h2, .education h2, .skills h2 {
+    color: #E74C3C;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.profile p, .references li p, .education p, .skills p {
+    font-size: 1.1em;
+    color: #7F8C8D;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.references li, .interests li, .skills li {
+    font-size: 1em;
+    color: #7F8C8D;
+    margin-bottom: 10px;
+}
+
+.references li p, .skills p {
+    margin: 5px 0;
+}
+
+.education h3 {
+    color: #34495E;
+    font-size: 1.3em;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.links h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+.links a {
+    color: #E74C3C;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid #E74C3C;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.links a:hover {
+    background-color: #E74C3C;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .profile h2, .references h2, .interests h2, .education h2, .skills h2 {
+        font-size: 1.5em;
+    }
+
+    .links a {
+        font-size: 1em;
+        padding: 8px 15px;
+    }
+}
+
